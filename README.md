@@ -7,7 +7,7 @@ Creates a file for each of the given filenames and enables its executable permis
 ## Installation
 
 ### Prerequisites
-Python `pyinstaller` must be installed but not added to path
+Python `pyinstaller` must be installed and added to PATH.
 `pyinstaller` is available with 
 ```bash
 pip install pyinstaller
