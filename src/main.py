@@ -3,8 +3,8 @@ import subprocess as sp
 import sys
 import manual_docstr
 
-def main():
-    filenames = sys.argv[1:]
+def main() -> None.__class__:
+    filenames: list[str] = sys.argv[1:]
     
     if len(filenames) == 0:
         print(manual_docstr.__doc__)
